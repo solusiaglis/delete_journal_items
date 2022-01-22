@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Code ini bisa dimodif untuk menampilkan sekumpulan Database ID dalam 1 model, tp u kali ini masih dibuat terpisah per line -->
+    <delete model="account.move.line" search="[('move_id','=',97538)]" /> <!-- 2021 -->
+    <delete model="account.move.line" search="[('move_id','=',97533)]" /> <!-- 2020 -->
+    <delete model="account.move.line" search="[('move_id','=',97531)]" /> <!-- 2019 -->
+    <delete model="account.move.line" search="[('move_id','=',97529)]" /> <!-- 2018 -->
+    <delete model="account.move.line" search="[('move_id','=',97527)]" /> <!-- 2017 -->
+    <delete model="account.move.line" search="[('move_id','=',97525)]" /> <!-- 2016 -->
+    <delete model="account.move.line" search="[('move_id','=',97523)]" />  <!-- 2015 -->
+</odoo>
